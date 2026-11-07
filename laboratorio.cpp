@@ -56,8 +56,8 @@ struct Album {
 // Crea el album con las cuatro canciones
 Album crearAlbum() {
     Album a;
-    a.titulo = "Mis favoritas";
-    a.anio = 2026;
+    a.titulo = "Lo Mejor de la Música Ranchera y Grupera";
+    a.anio = 2024;
     a.canciones[0] = {"Do I Wanna Know?", "Arctic Monkeys", 272};
     a.canciones[1] = {"Feel Good Inc.", "Gorillaz", 221};
     a.canciones[2] = {"California Love", "2Pac", 285};
