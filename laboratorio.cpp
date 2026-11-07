@@ -276,7 +276,7 @@ public:
             std::cout << i + 1 << ". " << playlist[i].formato() << std::endl;
             total += playlist[i].duracion;
         }
-        std::cout << "Duración total: " << formatoTiempo(total) << std::endl;
+        std::cout << "Duracion total: " << formatoTiempo(total) << std::endl;
     }
 };
 
@@ -286,10 +286,10 @@ void paso5() {
     EditorPlaylist editor;
     const Cancion* c = album.canciones;
 
-    editor.agregar(c[0]);  std::cout << "Paso 1 · agregar canción 1 → " << editor.estado() << std::endl;
-    editor.agregar(c[1]);  std::cout << "Paso 2 · agregar canción 2 → " << editor.estado() << std::endl;
-    editor.agregar(c[2]);  std::cout << "Paso 3 · agregar canción 3 → " << editor.estado() << std::endl;
-    editor.agregar(c[3]);  std::cout << "Paso 4 · agregar canción 4 → " << editor.estado() << std::endl;
+    editor.agregar(c[0]);  std::cout << "Paso 1 · agregar cancion 1 → " << editor.estado() << std::endl;
+    editor.agregar(c[1]);  std::cout << "Paso 2 · agregar cancion 2 → " << editor.estado() << std::endl;
+    editor.agregar(c[2]);  std::cout << "Paso 3 · agregar cancion 3 → " << editor.estado() << std::endl;
+    editor.agregar(c[3]);  std::cout << "Paso 4 · agregar cancion 4 → " << editor.estado() << std::endl;
     editor.deshacer();     std::cout << "Paso 5 · deshacer → " << editor.estado() << std::endl;
     editor.deshacer();     std::cout << "Paso 6 · deshacer → " << editor.estado() << std::endl;
     editor.rehacer();      std::cout << "Paso 7 · rehacer → " << editor.estado() << std::endl;
@@ -298,7 +298,7 @@ void paso5() {
     editor.deshacer();     std::cout << "Paso 10 · deshacer → " << editor.estado() << std::endl;
     editor.guardar();      std::cout << "Paso 11 · guardar → " << editor.estado() << std::endl;
     editor.deshacer();     std::cout << "Paso 12 · deshacer → " << editor.estado() << std::endl;
-    editor.agregar(c[3]);  std::cout << "Paso 13 · agregar canción 4 → " << editor.estado() << std::endl;
+    editor.agregar(c[3]);  std::cout << "Paso 13 · agregar cancion 4 → " << editor.estado() << std::endl;
 
     std::cout << std::endl;
     editor.mostrar();
