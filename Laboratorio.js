@@ -325,10 +325,10 @@ class EditorPlaylist {
 
 // Regla 6: cuatro canciones reales, con su duración real
 const album = new Album("Lo Mejor de la Música Ranchera y Grupera", 2024, [
-  new Cancion("El Rey", "Vicente Fernández", 174),            // 2:54
-  new Cancion("La Puerta Negra", "Los Tigres del Norte", 189),// 3:09
-  new Cancion("Tu Cárcel", "Los Bukis", 245),                 // 4:05
-  new Cancion("Por Qué Te Conocí", "Los Temerarios", 290),    // 4:50
+  new Cancion("Do I Wanna Know?", "Arctic Monkeys", 272),            // 2:54
+  new Cancion("Feel Good Inc.", "Gorillaz", 221),// 3:09
+  new Cancion("California Love", "2Pac", 285),                 // 4:05
+  new Cancion("Volver, Volver", "Vicente Fernández", 184),    // 4:50
 ]);
 
 // 1.5
